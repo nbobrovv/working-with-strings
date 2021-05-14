@@ -4,7 +4,8 @@ if __name__ == '__main__':
     a = str(input("Введите фразу: "))
     s = 0
     b = a.split("+")
-    for i in range(len(b)):
-        g = int(b[i])
+    b = list(b)
+    for i in b:
+        g = int(i)
         s += g
     print(s)
