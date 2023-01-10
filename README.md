@@ -1,2 +1,1 @@
-# laba5
-laboratory work number five
+Лабораторная работа № 5.
